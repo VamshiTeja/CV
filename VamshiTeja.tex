@@ -1,0 +1,312 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{fontawesome}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage{multicol}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+%\renewcommand{\baselinestretch}{1} 
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large 
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+
+\begin{center}
+\textbf{\huge Vamshi Teja}
+
+
+\hspace{50pt} {\color{black}\faMobile} +91-9515235789 \hspace{10pt}  \textbf{\href{https://www.linkedin.com/in/vamshi-teja/}{\color{black}{\Large \faLinkedin}}}       \hspace{10pt} \textbf{\href{https://github.com/vamshiteja}{\color{black}{\Large \faGithub}}}  \hspace{10pt} \href{mailto:ee15btech11023@iith.ac.in}{{\color{black}\faEnvelopeO} ee15btech11023@iith.ac.in} \hspace{50pt}
+\end{center}
+
+%\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+ % \textbf{\href{https://www.linkedin.com/in/vamshi-teja/}{\Large Vamshi Teja}} & Email : \href{mailto:ee15btech11023@iith.ac.in}{ee15btech11023@iith.ac.in}\\
+  %\href{https://github.com/vamshiteja}{Github} & Mobile : +91-9515235789 \\
+%\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+  \itemsep-0.1em
+    \resumeSubheading
+      {Indian Institute of Technology Hyderabad}{Hyderabad, India}
+      {Bachelor of Technology in Electrical and Computer Science Engineering;  \textbf{GPA: 9.15/10} }{Aug. 2015 -- Present}
+    \resumeSubheading
+      {Narayana Junior College}{Hyderabad, India}
+      {Senior Secondary School, Telangana Board;   \textbf{98.5\%}}{June. 2013 -- May. 2015}
+    \resumeSubheading
+      {Keshava Reddy Concept School}{Hyderabad, India}
+      {Secondary School, Andhra Pradesh Board;  \textbf{GPA: 9.7/10}}{June. 2012 -- May. 2013}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Professional Experience}
+\itemsep0em
+  \resumeSubHeadingListStart
+\itemsep0em
+    \resumeSubheading
+      {RCAST, The University of Tokyo}{Tokyo, Japan}
+      {Research Intern Under \href{http://www.cl.rcast.u-tokyo.ac.jp/Top.html}{Dr. Kumiko Tanaka-Ishii}}{July. 2018}
+      \resumeItemListStart
+      	\itemsep-0.15em
+      	\item{Worked on analyzing evaluation of Language Models(LM’s) using Neural Language Models.}
+      	\item{Used state-of-the-art Neural LM’s to evaluate LM’s spanning all performance levels.}
+      	\item{Arrived at conclusions to effectively use this criterion. \href{https://drive.google.com/open?id=1r0HV_jNtItAPX4y1S_nPjhrPLK4grzpx}{\textit{Project presentation}}}
+      	
+%        \resumeItem{Tensorflow}
+ %         {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models.}
+  %      \resumeItem{Apache Beam}
+   %       {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Philips Innovation Campus}{Bangalore, India}
+      {Summer Internship, Manager: \href{https://www.linkedin.com/in/sunilvuppala/?originalSubdomain=in}{Dr. Sunil Kumar Vuppala}}{May. 2018 - June. 2018}
+      \resumeItemListStart
+      	\itemsep-0.15em
+        \item{Worked on unsupervised classification using Generative Adversarial Networks(GAN's) on Medical Images.}
+      	\item{Able to extract linearly separable features on a Limited Breast Cancer(Mammography) Dataset.}
+      	\item{Traditional Clustering on these features performed on par with supervised approaches.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Mobiliya(A Quest Global Company)}{Bangalore, India}
+      {Summer Internship, Manager: \href{https://www.linkedin.com/in/raghusesha/?originalSubdomain=in}{Raghu Sesha Iyengar}}{June. 2017-July. 2017}
+      \resumeItemListStart
+      	\itemsep-0.15em
+        \item{Worked on Facial Emotion Recognition from videos using CNN’s and RNN’s.}
+      	\item{Implemented Hierarchical Attention Networks on IMDB Review Dataset for scoring reviews.}
+      	\item{Worked on synthesis of Images from text descriptions(Text-to-Img) using GAN’s. }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {GE Appliances}{Hyderabad, India}
+      {UT Austin \& IITH - Industrial Project}{June. 2016 - July. 2016}
+      \resumeItemListStart
+      	\itemsep-0.15em
+       	\item{As a part of Advanced Embedded Systems course we did our Industrial project with GE. Worked on making GE Appliances Smart(Refrigrators, Washing Machine,) by connecting them over Internet.}
+		\item{Worked with HTTP and MQTT protocols using raspberry pi(as local server) as a local server.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Academic Projects}
+  \resumeSubHeadingListStart
+  \itemsep0em
+      \resumeSubheading
+      {SubModular Data Loader}{\href{https://drive.google.com/open?id=1UfuwPFzf0afG3OvB9Q4rebFECu7nXTcG}{{\color{blue}\textit{Project Report}}}}
+      {Under Dr. Vineeth N Balasubramanian, Dept of CSE, IITH. (To be submitted to IJCAI 2019)}{October. 2018 - Present}
+      \resumeItemListStart
+      	\itemsep0em
+       	\item{Built an optimized Submodular Data Loader(SMDL) for mini-batch selection using Distributed  Lazier than Lazy Greedy algorithm for subset selection using submodular score function.}
+       	\item{Beaten SGD with Random sampling on CIFAR and SVHN datasets for Image Classification Task.}
+       	\item{Working on extending SMDL for Curriculum Learning.}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Disentanglement using Factor-VAE for Better Taskonomy}{}
+      {Under Dr. Vineeth N Balasubramanian, Dept of CSE, IITH}{August. 2018 - Present}
+      \resumeItemListStart
+      	\itemsep0em
+       	\item{Goal is to solve a set of visual tasks without explicitly training all of them. Came up with a novel way to perform task-transfer reducing computational complexity as compared to Taskonomy-Original Approach.}
+       	\item{Achieved state of the art classification results on SVHN and CIFAR10 datasets using our architecture in the process.}
+      \resumeItemListEnd
+      
+     	
+	\newpage     	
+      \resumeSubheading
+      {Classification and Quantification of SRF/PED from OCT Scans}{\href{https://drive.google.com/open?id=16MOCnB_j7Jf5Y5ZyqeCxNMw7v9Z5hB-H}{{\color{blue}\textit{Project Report}}}}
+      {Under Dr.Soumya Jana, Dept of EE, IITH. (To be submitted to Journal)}{Jan. 2018 - April. 2018}
+      \resumeItemListStart
+      	\itemsep0em
+       	\item{The objective is to detect and quantify retinal-fluid based disorders to assist ophthalmologists. Developed a two-step approach, detection followed by segmentation. }
+		\item{Used Ensemble Methods for classification and deep learning methods for segmentation. Achieved dice score of 0.92 and could detect even small fluid regions.}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Recommendation Systems using deep learning}{}	
+      {Under Dr. Srijith P.K, Dept of CSE, IITH}{January. 2018 - April. 2018}
+      \resumeItemListStart
+      	\itemsep0em
+       	\item{Built music recommendation engine where user histories are modeled as sessions containing (begin time, end time, activities) tuples. }
+		\item{Used techniques from survival analysis and LSTM networks. Improved Mean Absolute Error by 8\%.}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Land Cover Segmentation from High Resolution Satellite Images}{\href{https://drive.google.com/open?id=1X9-JzzfE5uaLExOh8FgHvfzj9-9DsrBF}{{\color{blue}\textit{Project Presentation}}}}
+      {Deep Learning course Project}{March. 2018 - April. 2018}
+      \resumeItemListStart
+      	\itemsep0em
+       	\item{Studied performance of state-of-the-art semantic-segmentation models on patches of Satellite Images(due to computational constraints). 
+}
+		\item{Achieved the best performance with modified DeepLab-v3 architecture. Achieved a dice score of 0.68 - one of the top scores in the CVPR18-Workshop competition.}
+      \resumeItemListEnd     
+     
+      \resumeSubheading
+      {Finding the Right Social Media for Questions}{ \href{https://drive.google.com/open?id=1R13GQEIdIHoSOHFMXU-5oLd_m17u8dMc}{\color{blue}{\textit{Project Presentation}} }}
+      {Data Mining Course project}{March. 2018 - April. 2018}
+      \resumeItemListStart
+      	\itemsep0em
+       	\item{Given a query, the goal is to redirect to the right social media site which can answer the query. }
+       	\item{We followed a three-step approach which involves modeling of query, site followed by ranking.}
+      \resumeItemListEnd
+     
+      \resumeSubheading
+      {Face Emotion Recognition}{\href{https://docs.google.com/presentation/d/1gFxSQZRY7D6Aw9Jioxa-PuaQJlLhG-lilpanNdkTyVI/edit?usp=sharing}{{\color{blue}\textit{Project Presentation}}}}
+      {Under Dr. Sumohana Channappayya, Dept of EE, IITH}{March. 2017 - April. 2017}
+      \resumeItemListStart
+      	\itemsep0em
+       	\item{Explored several filters based and ML/DL approaches. Achieved best results with CNN’s. }
+       	\item{Fine-tuning pre-trained networks trained on Imagenet with FER2013 dataset gave results on par with CNN's(trained from scratch). Best accuracy we achieved is 55\%.}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Theft Detection}{}
+      {Under Dr. Siva Vanjari, Dept of EE, IITH}{Oct. 2016 - Dec. 2016}
+      \resumeItemListStart
+      	\itemsep0em
+       	\item{Developed an application that alerts if any motion is detected in a room and sends the picture to Dropbox. }
+		\item{Used background subtraction algorithm and significantly increased fps by exploiting multithreading for capturing and processing of images. Able to stream live video to localhost.}
+      \resumeItemListEnd
+
+   
+
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+
+  \resumeSubHeadingListStart
+  	\itemsep-0.15em
+    \item{
+      \textbf{Languages}{: Python, C++, C, PostgreSQL, Assembly, \LaTeX}
+    }
+    \item { \textbf{Softwares and Packages}{: Tensorflow, PyTorch, Keras, OpenCV, GPy, Matlab, Caffe, Modelsim, Arduino, Raspberry Pi, TM4C Launchpad, Microsoft Office }}
+    
+     \item{
+      \textbf{Operating Systems}{: Ubuntu, Windows, Mac OSx}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\section{Course Work}
+ %\hspace{-1pt}
+ \setlength{\headsep}{0em}
+\begin{table}[ht]
+\setlength{\tabcolsep}{1em}
+\begin{tabular}{lllll}
+
+Optimization Methods in ML & Information Theory and Coding          & Algorithms                &  &  \\ 
+Deep Learning              & Practical Challenges in Image Analysis & Data Structures           &  &  \\
+Applied Machine Learning   & Data Analytics                         & DBMS           			&  &  \\
+Data Mining                & Linear Algebra                         & Advanced Embedded Systems &  &  \\ 
+\end{tabular}
+\end{table}
+
+% \resumeSubHeadingListStart
+ %  \item{
+ %	Optimization Methods in Machine Learning, Deep Learning, Applied Machine Learning, Data Mining, Information Theory and Coding, Data Analytics, Practical Challenges in Image Analysis, DBMS,  Algorithms, Data Structures, Advanced Embedded Systems, Linear Algebra
+      
+      
+   % }
+  %\resumeSubHeadingListEnd
+  
+\section{Achievements}
+  \resumeSubHeadingListStart
+  	\itemsep-0.15em
+  	\item{Selected for \textbf{Sakura Science Program} by Japanese Government.}
+    \item{Secured 32nd rank in \textbf{McKinsey Analytics Hackathon} out of around 3k participants.}
+    \item{Secured AIR 3925 in IIT-JEE 2015, AIR 1541 in JEE-MAINS 2015 and State Rank 521 in TS-EAMCET 2015.}    
+    \item{Received \textbf{RAJYAPURASKAR SCOUT} Award in 2010.} 
+    
+  \resumeSubHeadingListEnd
+  
+\section{Positions of Responsibility}
+  \resumeSubHeadingListStart
+  	\itemsep-0.15em
+      \item{\textbf{Teaching Assistant} for Matrix Analysis, Electric Circuits, Magnetic Circuits, Device Physics.}
+    \item{\textbf{Sunshine Mentor} in sophomore year for freshmen students.}
+    \item{Core-member of Lamba club(Development club of IITH).}    
+    \item{Active NSS Volunteer.}
+  \resumeSubHeadingListEnd
+
+\section{References}
+  \resumeSubHeadingListStart
+  	\itemsep-0.15em
+      \item{Available on request.}
+
+    
+  \resumeSubHeadingListEnd
+
+\end{document}
