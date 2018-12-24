@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.28)  24 DEC 2018 11:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.28)  24 DEC 2018 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,7 +399,7 @@ Here is how much of TeX's memory you used:
  11049 multiletter control sequences out of 15000+600000
  9904 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,43p,509b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,43p,510b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
 }</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
@@ -410,10 +410,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on VamshiTeja.pdf (3 pages, 127826 bytes).
+Output written on VamshiTeja.pdf (3 pages, 127860 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 106 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
