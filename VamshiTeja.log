@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.28)  24 DEC 2018 11:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.28)  15 MAY 2019 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -372,25 +372,20 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-Overfull \hbox (39.48172pt too wide) in paragraph at lines 268--275
-[][] 
- []
-
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+ [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
  (./VamshiTeja.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
 Package rerunfilecheck Info: File `VamshiTeja.out' has not changed.
-(rerunfilecheck)             Checksum: 30B64B2819B9E20E73608E6DB27F0DBB;405.
+(rerunfilecheck)             Checksum: 5C4BC2DCCDB45A89983BBFB2BFC33FAB;406.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
  ) 
 Here is how much of TeX's memory you used:
  7580 strings out of 493029
@@ -399,21 +394,22 @@ Here is how much of TeX's memory you used:
  11049 multiletter control sequences out of 15000+600000
  9904 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,43p,510b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,43p,509b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
 }</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb>
-Output written on VamshiTeja.pdf (3 pages, 127860 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb>
+Output written on VamshiTeja.pdf (3 pages, 137100 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
